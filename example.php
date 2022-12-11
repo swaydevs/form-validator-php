@@ -1,5 +1,6 @@
 <?php
 
+include('formValidator.class.php')
 $validator = new FormValidator();
 
 $email = 'test@example.com';
